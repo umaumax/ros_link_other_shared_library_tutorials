@@ -24,6 +24,13 @@ include_directories(
 )
 ```
 
+
+`package.xml`
+```
+  <build_depend>ros_shared_library_turorials</build_depend>
+  <exec_depend>ros_shared_library_turorials</exec_depend>
+```
+
 ----
 
 ## FYI
