@@ -27,9 +27,10 @@ target_link_libraries(${PROJECT_NAME}_node
 
 `package.xml`
 ```
-  <build_depend>ros_shared_library_turorials</build_depend>
-  <exec_depend>ros_shared_library_turorials</exec_depend>
+  <build_depend>ros_shared_library_tutorials</build_depend>
+  <exec_depend>ros_shared_library_tutorials</exec_depend>
 ```
+NOTE: __`package.xml`のdependでスペルミスをしてもエラーが検出されないので注意__
 
 ----
 
