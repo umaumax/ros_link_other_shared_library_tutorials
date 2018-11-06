@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
   ros_shared_library_tutorials
+  ros_prebuild_shared_library_tutorials
 )
 
 ## System dependencies are found with CMake's conventions

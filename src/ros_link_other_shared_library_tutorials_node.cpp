@@ -5,6 +5,7 @@
 #include <sstream>
 
 #include "ros_shared_library_tutorials/add.hpp"
+#include "ros_prebuild_shared_library_tutorials/hello.hpp"
 
 int main(int argc, char **argv) {
   ros::init(argc, argv, "talker");
@@ -13,6 +14,7 @@ int main(int argc, char **argv) {
   ros::Rate loop_rate(10);
 
   std::cout << "add result:" << add(1, 2) << std::endl;
+  hello();
 
   int count = 0;
   while (ros::ok()) {
